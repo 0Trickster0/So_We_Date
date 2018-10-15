@@ -155,22 +155,8 @@ public class DialogManager : MonoBehaviour
     //读取Json文件信息
     public List<Node> ReadJsonFile(string fileName)
     {
-        JsonData jsonData = JsonMapper.ToObject(File.ReadAllText(Application.dataPath+ fileName));
         List<Node> nodeList = new List<Node>();
-        foreach(JsonData temp in jsonData)
-        {
-            Node node = new Node();
-            JsonData idValue = temp["ID"];
-            JsonData textValue = temp["Text"];
-            JsonData choiceValue = temp["isChoice"];
-            int id = int.Parse(idValue.ToString());
-            string text = textValue.ToString();
-            bool isChoice = bool.Parse(choiceValue.ToString());
-            node.id = id;
-            node.text = text;
-            node.isChoice = isChoice;
-            nodeList.Add(node);
-        }
+        nodeList = JsonMapper.ToObject<List<Node>>(File.ReadAllText(Application.dataPath + fileName));
         return nodeList;
     }
 
