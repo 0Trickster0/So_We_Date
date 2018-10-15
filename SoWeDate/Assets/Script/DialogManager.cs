@@ -10,8 +10,7 @@ using LitJson;
 public class DialogManager : MonoBehaviour
 {
     private List<Node> nodeArray = new List<Node>();
-    private int i;
-    private string sentence = "情书内容：你的美丽是那么的闪耀，我的目光难以从你的身上移开，若再不能向你传达我的心意，我的生命将在渐渐褪色中失去意义。请在今天放学后等待我的告白。";
+    private int i;//表示当前游戏进度
     private string shownText = "";
     private static DialogManager instance;
 
@@ -25,7 +24,9 @@ public class DialogManager : MonoBehaviour
     {
         public int id;
         public string text;
-        public bool isChoice;
+        public int fontSize;
+        public double textInterval;
+        public int shakeDegree;
     }
 
     //单例
@@ -77,18 +78,19 @@ public class DialogManager : MonoBehaviour
     //逐字显示文本
     IEnumerator LoadText(string sentence)
     {
-        int i = 0;
-        for (i = 0; i< sentence.Length; i++){
-            yield return new WaitForSeconds(0.05f);
-            shownText = shownText + sentence[i].ToString();
+        int j = 0;
+        for (j = 0; j< sentence.Length; j++){         
+            shownText = shownText + sentence[j].ToString();
             //Debug.Log(shownText);
             if (GameObject.Find("Dialogbox"))
             {
                 Dialog = GameObject.Find("Dialogbox");
                 DialogText = Dialog.transform.Find("Text");
                 Text dialogtext = DialogText.GetComponent<Text>();
+                
                 dialogtext.text = shownText;    
-            }   
+            }
+            yield return new WaitForSeconds((float)nodeArray[i].textInterval);
         }
         StopAllCoroutines();
     }
@@ -165,6 +167,7 @@ public class DialogManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            
             if (shownText != nodeArray[i].text)
             {
                 ShowAllText(nodeArray[i].text);
@@ -174,6 +177,8 @@ public class DialogManager : MonoBehaviour
                 i++;
                 shownText = "";
                 SetDialogText(nodeArray[i].text);
+                DialogText.GetComponent<Text>().fontSize = nodeArray[i].fontSize;
+                GameObject.Find("Dialogbox").SendMessage("SetAnimation",nodeArray[i].shakeDegree);
             }
         }
     }

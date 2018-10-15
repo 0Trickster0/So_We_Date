@@ -1,47 +1,12 @@
 ﻿[
-    {
-        "id": 0,
-        "text": "是放学的铃声，你已经可以回家了。",
-        "isChoice": false
-    },
-    {
-        "id": 1,
-        "text": "那么，一如既往般赏心悦目地收拾收拾就走吧。",
-        "isChoice": false
-    },
-    {
-        "id": 2,
-        "text": "啊，不对。",
-        "isChoice": false
-    },
-    {
-        "id": 3,
-        "text": "你想起来了能让你再在学校里待一会儿的理由。",
-        "isChoice": false
-    },
-    {
-        "id": 4,
-        "text": "今天早上在课桌里发现的那一封情书。",
-        "isChoice": false
-    },
-    {
-        "id": 5,
-        "text": "这虽不是你收到的第一封情书，但却是你今天收到的唯一一封。",
-        "isChoice": false
-    },
-    {
-        "id": 6,
-        "text": "或者准确来说是一封表白约定信？",
-        "isChoice": false
-    },
-    {
-        "id": 7,
-        "text": "情书内容：你的美丽是那么的闪耀，我的目光难以从你的身上移开，若再不能向你传达我的心意，我的生命将在渐渐褪色中失去意义。请在今天放学后等待我的告白。",
-        "isChoice": false
-    },
-    {
-        "id": 8,
-        "text": "那么，这封情书对你来说合格吗？",
-        "isChoice": true
-    }
+{"id":0,"text":"是放学的铃声，你已经可以回家了。","fontSize":36,"textInterval":0.05,"shakeDegree":0},
+{"id":1,"text":"那么，一如既往般赏心悦目地收拾收拾就走吧。","fontSize":36,"textInterval":0.05,"shakeDegree":0},
+{"id":2,"text":"啊，不对。","fontSize":50,"textInterval":0.3,"shakeDegree":1},
+{"id":3,"text":"你想起来了能让你再在学校里待一会儿的理由。","fontSize":36,"textInterval":0.05,"shakeDegree":0},
+{"id":4,"text":"今天早上在课桌里发现的那一封情书。","fontSize":50,"textInterval":0.05,"shakeDegree":2},
+{"id":5,"text":"这虽不是你收到的第一封情书，但却是你今天收到的唯一一封。","fontSize":36,"textInterval":0.3,"shakeDegree":0},
+{"id":6,"text":"或者准确来说是一封表白约定信？","fontSize":36,"textInterval":0.05,"shakeDegree":1},
+{"id":7,"text":"情书内容：你的美丽是那么的闪耀，我的目光难以从你的身上移开，若再不能向你传达我的心意，我的生命将在渐渐褪色中失去意义。请在今天放学后等待我的告白。","fontSize":36,"textInterval":0.05,"shakeDegree":0},
+{"id":8,"text":"那么，这封情书对你来说合格吗？","fontSize":36,"textInterval":0.05,"shakeDegree":0}
+
 ]
