@@ -2,34 +2,38 @@
     {
         "id": 1,
         "boxesNumber": 2,
+		"nextChoice": [1,1],
         "skipDialogNumber": [
             3,
-            2
+            3
         ]
     },
     {
         "id": 2,
         "boxesNumber": 3,
+		"nextChoice": [1,1,1],
         "skipDialogNumber": [
             4,
             4,
-            114
+            113
         ]
     },
     {
         "id": 3,
         "boxesNumber": 3,
+		"nextChoice": [1,1,2],
         "skipDialogNumber": [
-            98,
+            105,
             5,
-            7
+            14
         ]
     },
     {
         "id": 4,
         "boxesNumber": 3,
+		"nextChoice": [1,1,1],
         "skipDialogNumber": [
-            97,
+            98,
             5,
 			7
         ]
@@ -37,38 +41,52 @@
     {
         "id": 5,
         "boxesNumber": 2,
+		"nextChoice": [1,1],
+        "skipDialogNumber": [
+            3,
+            3
+        ]
+    },
+	{
+        "id": 6,
+        "boxesNumber": 2,
+		"nextChoice": [1,1],
         "skipDialogNumber": [
             3,
             3
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "boxesNumber": 2,
+		"nextChoice": [1,1],
         "skipDialogNumber": [
             3,
             6
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "boxesNumber": 2,
+		"nextChoice": [1,1],
         "skipDialogNumber": [
             3,
             7
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "boxesNumber": 2,
+		"nextChoice": [1,1],
         "skipDialogNumber": [
-            3,
-            4
+            4,
+            3
         ]
     },
     {
-        "id": 9,
+        "id": 10,
         "boxesNumber": 3,
+		"nextChoice": [1,1,1],
         "skipDialogNumber": [
             4,
             5,

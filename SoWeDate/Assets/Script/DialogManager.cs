@@ -29,6 +29,7 @@ public class DialogManager : MonoBehaviour
         public double textInterval;
         public int shakeDegree;
         public int next;
+        public int nextNode;
         public string speakerName;
     }
 
@@ -184,7 +185,7 @@ public class DialogManager : MonoBehaviour
             {
                 //正常继续对话
                 if(nodeArray[i].next == 0){
-                    i++;
+                    i=i+nodeArray[i].nextNode;
                     shownText = "";
                     SetDialogText(nodeArray[i].text);
                     DialogText.GetComponent<Text>().fontSize = nodeArray[i].fontSize;
