@@ -1,12 +1,1145 @@
 ﻿[
-{"id":0,"text":"是放学的铃声，你已经可以回家了。","fontSize":36,"textInterval":0.05,"shakeDegree":0},
-{"id":1,"text":"那么，一如既往般赏心悦目地收拾收拾就走吧。","fontSize":36,"textInterval":0.05,"shakeDegree":0},
-{"id":2,"text":"啊，不对。","fontSize":50,"textInterval":0.3,"shakeDegree":1},
-{"id":3,"text":"你想起来了能让你再在学校里待一会儿的理由。","fontSize":36,"textInterval":0.05,"shakeDegree":0},
-{"id":4,"text":"今天早上在课桌里发现的那一封情书。","fontSize":50,"textInterval":0.05,"shakeDegree":2},
-{"id":5,"text":"这虽不是你收到的第一封情书，但却是你今天收到的唯一一封。","fontSize":36,"textInterval":0.3,"shakeDegree":0},
-{"id":6,"text":"或者准确来说是一封表白约定信？","fontSize":36,"textInterval":0.05,"shakeDegree":1},
-{"id":7,"text":"情书内容：你的美丽是那么的闪耀，我的目光难以从你的身上移开，若再不能向你传达我的心意，我的生命将在渐渐褪色中失去意义。请在今天放学后等待我的告白。","fontSize":36,"textInterval":0.05,"shakeDegree":0},
-{"id":8,"text":"那么，这封情书对你来说合格吗？","fontSize":36,"textInterval":0.05,"shakeDegree":0}
-
+    {
+        "id": 1001,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "是放学的铃声，你已经可以回家了"
+    },
+    {
+        "id": 1002,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "那么"
+    },
+    {
+        "id": 1003,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "一如既往般赏心悦目地收拾东西，然后回家吧"
+    },
+    {
+        "id": 1004,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "啊…不对"
+    },
+    {
+        "id": 1005,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你想起来了晚点回家的理由"
+    },
+    {
+        "id": 1006,
+        "fontSize": 50,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "一封今天刚到教室时在课桌里发现的情书"
+    },
+    {
+        "id": 1007,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 1,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "这虽不是你收到的第一封情书，但却是你今天收到的唯一一封"
+    },
+    {
+        "id": 1008,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "那么，这封情书对你来说合格吗？"
+    },
+    {
+        "id": 1009,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "合格"
+    },
+    {
+        "id": 1010,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "不合格"
+    },
+    {
+        "id": 1011,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "嘛"
+    },
+    {
+        "id": 1012,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "离信上约定在这见面的时间还有一会儿。"
+    },
+    {
+        "id": 1013,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "那么要出于礼貌在此等待吗？"
+    },
+    {
+        "id": 1014,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "读课外小说"
+    },
+    {
+        "id": 1015,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "作业"
+    },
+    {
+        "id": 1016,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "回家"
+    },
+    {
+        "id": 1017,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "一段时间后……"
+    },
+    {
+        "id": 1018,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "朋友",
+        "text": "“这位美人儿，还没走是在等我吗？”"
+    },
+    {
+        "id": 1019,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "一个熟悉的女声打断了你。"
+    },
+    {
+        "id": 1020,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你抬头看去，是你常常结伴而归的好友。"
+    },
+    {
+        "id": 1021,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "她笑着看着你，该是在期待你的回应。"
+    },
+    {
+        "id": 1022,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“没错，帅气的先生。”与朋友一起离开教室。"
+    },
+    {
+        "id": 1023,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“我收到了…这个！”把信拿出来给她看。"
+    },
+    {
+        "id": 1024,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“今天你先回去吧，我还有点事。”"
+    },
+    {
+        "id": 1025,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你与朋友一起回了家。"
+    },
+    {
+        "id": 1026,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你的朋友迎上来与你一起讨论情书内容并有说有笑地发表观点。"
+    },
+    {
+        "id": 1027,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你听到走廊上有人踉跄逃走的声音。"
+    },
+    {
+        "id": 1028,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你这么想象着。"
+    },
+    {
+        "id": 1029,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "她笑着看着你，该是在期待你的回应。"
+    },
+    {
+        "id": 1030,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“没错，帅气的先生。”与朋友一起离开教室。"
+    },
+    {
+        "id": 1031,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“我收到了…这个！”把信拿出来给她看。"
+    },
+    {
+        "id": 1032,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“今天你先回去吧，我还有点事。”"
+    },
+    {
+        "id": 1033,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你与朋友一起回了家。"
+    },
+    {
+        "id": 1034,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你的朋友迎上来与你一起讨论情书内容并有说有笑地发表观点。"
+    },
+    {
+        "id": 1035,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你听到走廊上有人踉跄逃走的声音。"
+    },
+    {
+        "id": 1036,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "朋友",
+        "text": "“嚯……”"
+    },
+    {
+        "id": 1037,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "朋友眼睛里想到了一万个捉弄人的坏主意。"
+    },
+    {
+        "id": 1038,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "然后她俯下身子，凑到你耳边小声问"
+    },
+    {
+        "id": 1039,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "朋友",
+        "text": "“又收到情书了？这次是谁的？”"
+    },
+    {
+        "id": 1040,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你笑而不语地点了点头。"
+    },
+    {
+        "id": 1041,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "她捂着嘴笑了笑。"
+    },
+    {
+        "id": 1042,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "朋友",
+        "text": "“那我先回去咯，明天见！”"
+    },
+    {
+        "id": 1043,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "说完，她踏着轻快的步子离开了教室"
+    },
+    {
+        "id": 1044,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "现在被黄昏的光铺盖着的教室只剩下你一人了。"
+    },
+    {
+        "id": 1045,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你看了眼时间，超过了约定的一分钟。"
+    },
+    {
+        "id": 1046,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "等到这个点上，算是很有礼貌了吧？"
+    },
+    {
+        "id": 1047,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你这么想着便站起身来开始收拾东西。"
+    },
+    {
+        "id": 1048,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "就在这时，你听到教室的门被打开。"
+    },
+    {
+        "id": 1049,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "你循声望去，那里站着的，该是同年级的一个男同学。"
+    },
+    {
+        "id": 1050,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "假装不关自己的事，继续收拾东西。"
+    },
+    {
+        "id": 1051,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“你好，请问有什么事吗？"
+    },
+    {
+        "id": 1052,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“啊…那个……”"
+    },
+    {
+        "id": 1053,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“你好…”"
+    },
+    {
+        "id": 1054,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“请问…你有收到我…那个…放在你课桌里的信吗？”"
+    },
+    {
+        "id": 1055,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "少年吞吞吐吐，紧张得不能再明显了"
+    },
+    {
+        "id": 1056,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "女主角",
+        "text": "“嗯，收到了哟。”"
+    },
+    {
+        "id": 1057,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你微笑着点了点头，语气似乎这不关你的事一般"
+    },
+    {
+        "id": 1058,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“啊…那个……你觉得…怎么样呢？”"
+    },
+    {
+        "id": 1059,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "男孩不敢直视你，他的一举一动都小心翼翼"
+    },
+    {
+        "id": 1060,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "生怕手放错了地方，眼睛看错了地方，姿态不够帅气"
+    },
+    {
+        "id": 1061,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“嗯？你是指什么？”"
+    },
+    {
+        "id": 1062,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“诶，我以为…你是打算当面说得更加清楚？”"
+    },
+    {
+        "id": 1063,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你的话音未落，少年便像停止了呼吸一般僵直了身子"
+    },
+    {
+        "id": 1064,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "脸蛋即使在黄昏的光辉下也可以看出红到了耳根子"
+    },
+    {
+        "id": 1065,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“对…我……”"
+    },
+    {
+        "id": 1066,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他好像还是说不利索一句完整的话，但也努力地尝试着……"
+    },
+    {
+        "id": 1067,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "如果你只是个单纯的旁观者，你或许会想为他加油。"
+    },
+    {
+        "id": 1068,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“我……”"
+    },
+    {
+        "id": 1069,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“我喜欢你！可以请你和我交往吗？！”"
+    },
+    {
+        "id": 1070,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你似乎是出于想要戏弄他，只是静静地注视着他，不做任何别的回应"
+    },
+    {
+        "id": 1071,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "可他并没有回避你的眼神，他憋红着脸直勾勾地看着你，坚定地想要得到一个答案"
+    },
+    {
+        "id": 1072,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你不仅好奇若这答案不是他想要的，他此刻的坚定又有何意义。"
+    },
+    {
+        "id": 1073,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "而这坚定也在随着沉默的空气逐渐消失。"
+    },
+    {
+        "id": 1074,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“谢谢你！不过，为什么呢？”"
+    },
+    {
+        "id": 1075,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "你继续着你的捉弄，只是静静地微笑着看着他"
+    },
+    {
+        "id": 1076,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“啊！怎么说呢…”"
+    },
+    {
+        "id": 1077,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "少年挠着头思考了起来。"
+    },
+    {
+        "id": 1078,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "看着他认真的苦恼着的样子有些可爱，你有些忍俊不禁。"
+    },
+    {
+        "id": 1079,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他眼神中的坚定慢慢消失。"
+    },
+    {
+        "id": 1080,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "一直憋着的那口气慢慢泄了出来，紧绷的肩膀脱落般垂了下来。"
+    },
+    {
+        "id": 1081,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "低着头看不清他的表情，但神态中充满了失落。"
+    },
+    {
+        "id": 1082,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "就当你以为他不会再说一句话时…"
+    },
+    {
+        "id": 1083,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他低着头说了起来"
+    },
+    {
+        "id": 1084,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“你坐在教室里、图书室里，认真学习、读书的样子，会让躁动的我安静下来”"
+    },
+    {
+        "id": 1085,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他向你走了过来"
+    },
+    {
+        "id": 1086,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“你在操场上跑步时或是跟朋友玩耍时，那种专注着呼吸的样子能让没有干劲的我感受到活力”"
+    },
+    {
+        "id": 1087,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他靠得越来越近"
+    },
+    {
+        "id": 1088,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“还有…你捂着嘴笑的样子或是开怀大笑的样子，都使我能从心底感受到一阵喜悦”"
+    },
+    {
+        "id": 1089,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "少年",
+        "text": "“还有你吃东西的样子……”"
+    },
+    {
+        "id": 1090,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "装作惊讶地打断：“诶？吃饭的样子你也看了？”"
+    },
+    {
+        "id": 1091,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "开心地轻声笑着碎碎念道：“变态…”"
+    },
+    {
+        "id": 1092,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“啊！抱歉！”"
+    },
+    {
+        "id": 1093,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你的反应带给了少年不少慌乱"
+    },
+    {
+        "id": 1094,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你轻声笑了笑，口吻就像刚才的惊讶是玩笑一般说道"
+    },
+    {
+        "id": 1095,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "女主角",
+        "text": "“我知道了，原谅你。”"
+    },
+    {
+        "id": 1096,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“诶？”少年惊愕地愣在了原地。"
+    },
+    {
+        "id": 1097,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你赶忙在他变得更加慌乱之前说道"
+    },
+    {
+        "id": 1098,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "女主角",
+        "text": "“没事啦，捉弄一下你”"
+    },
+    {
+        "id": 1099,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "少年不知所措地挠了挠头，他的羞涩与紧张丝毫没有退去。"
+    },
+    {
+        "id": 1100,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“总而言之…光是感受到你的存在，就能让我…使我在平淡无奇的每一天中感到充实。”"
+    },
+    {
+        "id": 1101,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他再次抬起头用那坚定的目光看着你"
+    },
+    {
+        "id": 1102,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“所以，请和我交往吧。”"
+    },
+    {
+        "id": 1103,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "他似乎说完了所有想说的话，放松了下来的同时又紧张到了极点。"
+    },
+    {
+        "id": 1104,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "你礼貌地说：“谢谢你。可是，与你交往对我有什么好处呢？关于你的事情，我可是一无所知呢"
+    },
+    {
+        "id": 1105,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "你发自真心地笑了，答应了他"
+    },
+    {
+        "id": 1106,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "“好的！请多指教！”"
+    },
+    {
+        "id": 1107,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "少年的脸上瞬间失去了神色"
+    },
+    {
+        "id": 1108,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他急于开口说点什么，但又欲言而止了"
+    },
+    {
+        "id": 1109,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他要放弃了吗？"
+    },
+    {
+        "id": 1110,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "正当你这么想着，他又以几乎只有自己能听到的声音说了起来"
+    },
+    {
+        "id": 1111,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“我…长得不帅，也没什么值得骄傲的特长。成绩也是一般般的水平。”"
+    },
+    {
+        "id": 1112,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“确实…这样的我提出交往的要求只会让你困扰呢。”"
+    },
+    {
+        "id": 1113,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他似乎苦笑了一下，但你感觉不到他的气馁"
+    },
+    {
+        "id": 1114,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“那么，你希望与怎样的男性交往呢？”"
+    },
+    {
+        "id": 1115,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“请告诉我吧！我会努力成为那样的人的！”"
+    },
+    {
+        "id": 1116,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他再次直视着你，已不如之前那般坚定，但那认真的心情还是传达了过来。"
+    },
+    {
+        "id": 1117,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你也因此变得想要更加认真一点回应他了，即使仅是出于礼貌。"
+    },
+    {
+        "id": 1118,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "你若有所思般认真地说"
+    },
+    {
+        "id": 1119,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "女主角",
+        "text": "“你是说，无论我喜欢的男性是怎样的，你都会努力成为那样的人吗？”"
+    },
+    {
+        "id": 1120,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "少年",
+        "text": "“是的！”"
+    },
+    {
+        "id": 1121,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他的认真与坚定是那么单纯，你猜测他并没有深思熟虑过这个回答。"
+    },
+    {
+        "id": 1122,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "他站在这里，只因全身被纯粹的炽热的情感充斥着"
+    },
+    {
+        "id": 1123,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 1,
+        "speakerName": "旁白",
+        "text": "面对这样的他，你打算如何回应呢？"
+    },
+    {
+        "id": 1124,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“抱歉，虽然你都这么说了，但我觉得我的要求对你来说太勉强了。”"
+    },
+    {
+        "id": 1125,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“嗯…我也没怎么考虑过自己到底喜欢怎样的男性呢，不如先试试看吧。”"
+    },
+    {
+        "id": 1126,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "",
+        "text": "“既然你都这么说了，那就试试看吧。”"
+    },
+    {
+        "id": 1127,
+        "fontSize": 36,
+        "textInterval": 0.1,
+        "shakeDegree": 0,
+        "next": 0,
+        "speakerName": "旁白",
+        "text": "本章结束"
+    }
 ]

@@ -9,15 +9,16 @@ using LitJson;
 
 public class DialogManager : MonoBehaviour
 {
-    private List<Node> nodeArray = new List<Node>();
-    private int i;//表示当前游戏进度
-    private string shownText = "";
     private static DialogManager instance;
 
+    public int i;//表示当前游戏进度
     public string fileName;
     public GameObject DialogCanvas;
     public GameObject Dialog;                   //用于获取场景组件中的对话框
     public Transform DialogText;                //文本
+    public List<Node> nodeArray = new List<Node>();
+    public string shownText = "";
+    public bool isDisabled=false;
 
     //每个节点的结构体
     public struct Node
@@ -27,6 +28,8 @@ public class DialogManager : MonoBehaviour
         public int fontSize;
         public double textInterval;
         public int shakeDegree;
+        public int next;
+        public string speakerName;
     }
 
     //单例
@@ -34,12 +37,17 @@ public class DialogManager : MonoBehaviour
     {
         get
         {
-            if (instance == null)
-            {
-                instance = new DialogManager();
-            }
             return instance;
         }
+        set
+        {
+            instance = value;
+        }
+    }
+
+    private void Awake()
+    {
+        Instance = this;
     }
 
     public void Start()
@@ -51,7 +59,6 @@ public class DialogManager : MonoBehaviour
 
     public void Update()
     {
-        //ShowAllText(sentence);
         ShowJsonText();
     }
 
@@ -71,6 +78,8 @@ public class DialogManager : MonoBehaviour
         //    Text dialogtext = DialogText.GetComponent<Text>();
         //    dialogtext.text = sentence;
         //}
+        Text name = GameObject.Find("SpeakerName").GetComponent<Text>();
+        name.text = nodeArray[i].speakerName+":";
         StartCoroutine(LoadText(sentence));
 
     }
@@ -112,9 +121,9 @@ public class DialogManager : MonoBehaviour
     //消除对话框及文字
     public void DestoryDialog()
     {
-        if (GameObject.Find("Dialogbox"))
+        if (GameObject.Find("DialogCanvas(Clone)"))
         {
-            Dialog = GameObject.Find("Dialogbox");
+            Dialog = GameObject.Find("DialogCanvas(Clone)");
             Destroy(Dialog);
         }
 
@@ -165,20 +174,29 @@ public class DialogManager : MonoBehaviour
     //按照Json文件顺序显示文本
     public void ShowJsonText()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)&&!isDisabled)
         {
-            
             if (shownText != nodeArray[i].text)
             {
                 ShowAllText(nodeArray[i].text);
             }
             else
             {
-                i++;
-                shownText = "";
-                SetDialogText(nodeArray[i].text);
-                DialogText.GetComponent<Text>().fontSize = nodeArray[i].fontSize;
-                GameObject.Find("Dialogbox").SendMessage("SetAnimation",nodeArray[i].shakeDegree);
+                //正常继续对话
+                if(nodeArray[i].next == 0){
+                    i++;
+                    shownText = "";
+                    SetDialogText(nodeArray[i].text);
+                    DialogText.GetComponent<Text>().fontSize = nodeArray[i].fontSize;
+                    GameObject.Find("Dialogbox").SendMessage("SetAnimation", nodeArray[i].shakeDegree);
+                }
+                //触发选项
+                else if (nodeArray[i].next == 1)
+                {
+                    DestoryDialog();
+                    GameObject.Find("ChoiceCanvas").SendMessage("SetAllChoiceBoxes");
+                    isDisabled = true;
+                }
             }
         }
     }
