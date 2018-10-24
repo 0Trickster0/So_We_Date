@@ -61,12 +61,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\ChoiceBox.cs" />
-    <Compile Include="Assets\Script\ChoiceManager.cs" />
-    <Compile Include="Assets\Script\DialogBox.cs" />
-    <Compile Include="Assets\Script\DialogManager.cs" />
     <Compile Include="Assets\Script\Loading\LoadingScene.cs" />
-    <Compile Include="Assets\Script\Menu.cs" />
+    <Compile Include="Assets\Script\Main\ChoiceBox.cs" />
+    <Compile Include="Assets\Script\Main\ChoiceManager.cs" />
+    <Compile Include="Assets\Script\Main\DialogBox.cs" />
+    <Compile Include="Assets\Script\Main\DialogManager.cs" />
+    <Compile Include="Assets\Script\Menu\ContinueButton.cs" />
+    <Compile Include="Assets\Script\Menu\Menu.cs" />
     <Compile Include="Assets\Script\Start\SceneController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
