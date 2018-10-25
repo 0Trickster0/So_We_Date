@@ -66,8 +66,10 @@
     <Compile Include="Assets\Script\Main\ChoiceManager.cs" />
     <Compile Include="Assets\Script\Main\DialogBox.cs" />
     <Compile Include="Assets\Script\Main\DialogManager.cs" />
-    <Compile Include="Assets\Script\Menu\ContinueButton.cs" />
+    <Compile Include="Assets\Script\Main\NextButton.cs" />
+    <Compile Include="Assets\Script\Menu\MainMenuButton.cs" />
     <Compile Include="Assets\Script\Menu\Menu.cs" />
+    <Compile Include="Assets\Script\Menu\SnowflakeButton.cs" />
     <Compile Include="Assets\Script\Start\SceneController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

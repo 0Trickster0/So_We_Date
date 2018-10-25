@@ -60,7 +60,7 @@ public class DialogManager : MonoBehaviour
 
     public void Update()
     {
-        ShowJsonText();
+        //ShowJsonText();
     }
 
     //显示对话框以及文字
@@ -175,7 +175,7 @@ public class DialogManager : MonoBehaviour
     //按照Json文件顺序显示文本
     public void ShowJsonText()
     {
-        if (Input.GetMouseButtonDown(0)&&!isDisabled)
+        if (!isDisabled)
         {
             if (shownText != nodeArray[i].text)
             {

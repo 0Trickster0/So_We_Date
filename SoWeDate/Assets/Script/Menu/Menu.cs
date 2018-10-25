@@ -13,25 +13,26 @@ public class Menu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        ShowMenu();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ShowMenu();
+        }
+        
 	}
 
     public void ShowMenu()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (!isShown)
         {
-            if (!isShown)
-            {
-                GetComponent<Animator>().SetBool("IsDisplayed", true);
-                isShown = true;
-                DialogManager.Instance.isDisabled = true;
-            }
-            else
-            {
-                GetComponent<Animator>().SetBool("IsDisplayed", false);
-                isShown = false;
-                DialogManager.Instance.isDisabled = false;
-            }
+            GetComponent<Animator>().SetBool("IsDisplayed", true);
+            isShown = true;
+            DialogManager.Instance.isDisabled = true;
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("IsDisplayed", false);
+            isShown = false;
+            DialogManager.Instance.isDisabled = false;
         }
     }
 
