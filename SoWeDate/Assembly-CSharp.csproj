@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\Main\DialogBox.cs" />
     <Compile Include="Assets\Script\Main\DialogManager.cs" />
     <Compile Include="Assets\Script\Main\NextButton.cs" />
+    <Compile Include="Assets\Script\Menu\BackToMain.cs" />
     <Compile Include="Assets\Script\Menu\MainMenuButton.cs" />
     <Compile Include="Assets\Script\Menu\Menu.cs" />
     <Compile Include="Assets\Script\Menu\SnowflakeButton.cs" />

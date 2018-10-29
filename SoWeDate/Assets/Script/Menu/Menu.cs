@@ -6,6 +6,8 @@ public class Menu : MonoBehaviour {
 
     private bool isShown=false;
 
+    public KeyCode menuKey;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,12 +15,12 @@ public class Menu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(menuKey))
         {
             ShowMenu();
         }
-        
-	}
+
+    }
 
     public void ShowMenu()
     {
@@ -26,13 +28,13 @@ public class Menu : MonoBehaviour {
         {
             GetComponent<Animator>().SetBool("IsDisplayed", true);
             isShown = true;
-            DialogManager.Instance.isDisabled = true;
+            //DialogManager.Instance.isDisabled = true;
         }
         else
         {
             GetComponent<Animator>().SetBool("IsDisplayed", false);
             isShown = false;
-            DialogManager.Instance.isDisabled = false;
+            //DialogManager.Instance.isDisabled = false;
         }
     }
 
